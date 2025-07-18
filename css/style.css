@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(160, 196, 244);
+}
+
+#background-img {
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    justify-content: space-evenly;
+    margin: auto;
+    background-image: linear-gradient(black, rgb(0, 0, 0, 0));
+    padding-top: 2%;
+}
+
+a {
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#div1 {
+    position: relative;
+    margin: 12%;
+    margin-top: 18%;
+    margin-left: 20%;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 1;
+    color: white;
+    font-size: 5.4em;
+    text-align: center;
+    min-width: 0;
+}
+
+#self-img {
+    position: absolute;
+    z-index: 2;
+    max-width: 480px;
+    margin: 4%;
+    top: 10%;
+    right: 4.7%;
+    outline-color: white;
+    outline-width: 20px;
+    outline-style: solid;
+    outline-offset: -4px;
+}
+
+#about-me {
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+    top: 78%;
+    left: 4%;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 50%;
+    min-width: 130px;
+    min-height: 130px;
+}
+
+#about {
+    position: fixed;
+    z-index: 3;
+    text-align: center;
+    top: 81%;
+    left: 4%;
+    min-width: 130px;
+    min-height: 130px;
+}
+
+
+
+@media screen and (max-width: 1277px) {
+    #div1 {
+        margin: auto;
+        margin-top: 125px;
+        font-size: 4em;
+    }
+
+    #self-img {
+        position: relative;
+        max-width: 340px;
+        margin: 0%;
+        right: 0;
+        margin-top: 40px;
+    }
+
+    .flex-column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-me {
+        top: 80%;
+    }
+    
+    #about {
+        top: 83%;
+    }
+
+}
