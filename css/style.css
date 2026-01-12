@@ -9,19 +9,11 @@ body {
 }
 
 #background-img {
-    min-height: 100%;
+    height: 175%;
     width: 100%;
     position: absolute;
     top: 0%;
     z-index: 0;
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    align-content: space-around;
 }
 
 .flex-column {
@@ -32,15 +24,6 @@ body {
 
 }
 
-nav {
-    position: relative;
-    z-index: 1;
-    justify-content: space-evenly;
-    margin: auto;
-    background-image: linear-gradient(black, rgb(0, 0, 0, 0));
-    padding-top: 2%;
-}
-
 a {
     font-size: 2em;
     text-decoration: none;
@@ -48,7 +31,7 @@ a {
     color: white;
 }
 
-#div1 {
+#div1a {
     position: relative;
     margin: 12%;
     margin-top: 18%;
@@ -96,10 +79,78 @@ a {
     min-height: 130px;
 }
 
+#portfoliod {
+    margin-top: 15%;
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 12%;
+    font-size: 3.3em;
+    color: white;
+}
+
+#portfolio_titles {
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+#div1 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 5%;
+    display: inline-block;
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-left: 5%;
+ 
+}
+
+#div2 {
+    position: absolute;
+    z-index: 2;
+    margin-top: 5%;
+    display: inline-block;
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-left: 54%;
+}
+
+#div3 {
+    position: relative;
+    z-index: 2;
+    margin-top: 2%;
+    display: inline-block;
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-left: 5%;
+}
+
+#div4 {
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    margin-top: 2%;
+    display: inline-block;
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    left: 9%;
+}
 
 
 @media screen and (max-width: 1277px) {
-    #div1 {
+    #div1a {
         margin: auto;
         margin-top: 125px;
         font-size: 4em;
@@ -124,6 +175,40 @@ a {
     
     #about {
         top: 83%;
+    }
+
+    #background-img {
+        display: block;
+        height: 170%;
+        overflow: hidden;
+    }
+
+    h1 {
+        margin: auto;
+     min-width: 100%;
+        margin-top: 0;
+        font-size: 2.2em;
+        }
+
+    
+    #div1 {
+        margin-top: 8%;
+    }
+    
+    #div2 {
+        margin-top: 8%;
+    }
+
+    #cs {
+        font-size: 1.8em;
+    }
+
+    #div3 {
+        margin-top: 20%;
+    }
+
+    #div4 {
+        margin-top: 20%;
     }
 
 }
