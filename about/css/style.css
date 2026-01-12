@@ -24,6 +24,22 @@ body {
     align-content: space-around;
 }
 
+nav {
+    position: relative;
+    z-index: 1;
+    justify-content: space-evenly;
+    margin: auto;
+    background-image: linear-gradient(black, rgb(0, 0, 0, 0));
+    padding-top: 2%;
+}
+
+nav a {
+    font-size: 2em;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: white;
