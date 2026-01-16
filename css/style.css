@@ -108,7 +108,7 @@ h1 {
     color: white;
     background-color: rgb(0, 0, 0, 0.5);
     margin-left: 5%;
- 
+
 }
 
 #div2 {
@@ -171,23 +171,23 @@ h1 {
     #about-me {
         bottom: 2%;
     }
-    
+
     #about {
         bottom: 0%;
     }
 
     h1 {
         margin: auto;
-     min-width: 100%;
+        min-width: 100%;
         margin-top: 0;
         font-size: 2.2em;
-        }
+    }
 
-    
+
     #div1 {
         margin-top: 8%;
     }
-    
+
     #div2 {
         margin-top: 8%;
     }
@@ -208,8 +208,6 @@ h1 {
 
 @media screen and (max-width: 600px) {
     #div1a {
-        margin: auto;
-        margin-top: 125px;
         font-size: 2em;
     }
 
@@ -217,52 +215,27 @@ h1 {
         font-size: 1.3em;
     }
 
-    #self-img {
-        position: relative;
-        max-width: 24%;
-        margin: 0%;
-        right: 0;
-        margin-top: 40px;
-    }
-
-    .flex-column {
-        flex-direction: column;
-        align-items: center;
-    }
-
     #about-me {
         top: 8%;
         left: 6%;
         width: 75px;
-    height: 75px;
+        height: 75px;
     }
-    
+
     #about {
         top: 9%;
         left: 6%;
         width: 75px;
-    height: 75px;
-    font-size: 1.3em;
+        height: 75px;
+        font-size: 1.3em;
     }
 
-    h1 {
-        margin: auto;
-     min-width: 100%;
-        margin-top: 0;
-        font-size: 2.2em;
-        }
-
-    
     #div1 {
         margin-top: 18%;
     }
-    
+
     #div2 {
         margin-top: 18%;
-    }
-
-    #cs {
-        font-size: 1.8em;
     }
 
     #div3 {
@@ -271,10 +244,6 @@ h1 {
 
     #div4 {
         margin-top: 30%;
-    }
-
-    div a {
-        font-size: 1em;
     }
 
 }
