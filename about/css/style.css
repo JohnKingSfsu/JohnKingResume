@@ -5,15 +5,12 @@
 
 body {
     min-height: 100%;
-    background-color: rgb(160, 196, 244);
+    background-image: url('../img/Oceancropped.jpeg');
+    background-size: cover;
 }
 
-#background-img {
-    min-height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0%;
-    z-index: 0;
+html {
+    height: 100%;
 }
 
 .flex {
@@ -42,17 +39,6 @@ nav a {
 
 a {
     text-decoration: none;
-    color: white;
-}
-
-h1 {
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin-top: 12%;
-    font-size: 3.3em;
     color: white;
 }
 
@@ -90,21 +76,13 @@ h1 {
     nav {
         margin-bottom: 4%;
     }
-
-    h1 {
-        margin: auto;
-     min-width: 100%;
-        position: absolute;
-        margin-top: 0;
-        font-size: 2em;
-        }
     
     #div1 {
         position: relative;
         margin-left: 50%;
         transform: translateX(-50%);
         top: 8%;
-        width: 70%;
+        width: 80%;
     }
     
     #div2 {
@@ -112,7 +90,35 @@ h1 {
         margin-left: 50%;
         transform: translateX(-50%);
         top: 8%;
-        width: 70%;
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    nav {
+        margin-bottom: 4%;
+    }
+
+    p {
+        font-size: 0.5em;
+    }
+    
+    #div1 {
+        position: relative;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        top: 8%;
+        width: 80%;
+    }
+    
+    #div2 {
+        position: relative;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        top: 8%;
+        width: 80%;
     }
     
 }
