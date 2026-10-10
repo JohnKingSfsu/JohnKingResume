@@ -5,20 +5,12 @@
 
 body {
     min-height: 100%;
-    background-image: url('../img/Oceancropped.jpeg');
+    background-image: url('../img/Oceancropped.jpeg') / "Image of a pier next to an ocean";
     background-size: cover;
 }
 
 html {
     min-height: 100%;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: end;
-
 }
 
 a {
@@ -28,65 +20,9 @@ a {
     color: white;
 }
 
-#div1a {
-    position: relative;
-    margin: 12%;
-    margin-top: 18%;
-    margin-left: 20%;
-    background-color: rgb(0, 0, 0, 0.5);
-    z-index: 1;
-    color: white;
-    font-size: 5.4em;
-    text-align: center;
-    min-width: 0;
-}
-
-#self-img {
-    position: absolute;
-    z-index: 2;
-    max-width: 480px;
-    margin: 4%;
-    top: 10%;
-    right: 4.7%;
-    outline-color: white;
-    outline-width: 20px;
-    outline-style: solid;
-    outline-offset: -4px;
-}
-
-#about-me {
-    position: fixed;
-    z-index: 2;
-    text-align: center;
-    bottom: 2%;
-    left: 4%;
-    background-color: rgb(0, 0, 0, 0.5);
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
-}
-
-#about {
-    position: fixed;
-    z-index: 3;
-    text-align: center;
-    bottom: 0%;
-    left: 4%;
-    width: 130px;
-    height: 130px;
-}
-
-#portfoliod {
-    margin-top: 15%;
-}
-
 h1 {
-    position: relative;
-    z-index: 1;
     text-align: center;
-    display: inline-block;
     width: 100%;
-    margin-top: 12%;
     font-size: 3.3em;
     color: white;
 }
@@ -102,79 +38,56 @@ h1 {
 #div1 {
     position: absolute;
     z-index: 2;
-    margin-top: 5%;
+    margin-top: 2%;
     display: inline-block;
     width: 40%;
     color: white;
     background-color: rgb(0, 0, 0, 0.5);
-    margin-left: 5%;
+    left: 5%;
 
 }
 
 #div2 {
     position: absolute;
     z-index: 2;
-    margin-top: 5%;
+    margin-top: 2%;
     display: inline-block;
     width: 40%;
     color: white;
     background-color: rgb(0, 0, 0, 0.5);
-    margin-left: 54%;
+    right: 5%;
 }
 
 #div3 {
-    position: relative;
+    position: absolute;
     z-index: 2;
-    margin-top: 2%;
+    margin-top: 20%;
     display: inline-block;
     width: 40%;
     color: white;
     background-color: rgb(0, 0, 0, 0.5);
-    margin-left: 5%;
-    margin-bottom: 3%;
+    left: 5%;
+    top: 20%;
 }
 
 #div4 {
-    margin: 0;
-    position: relative;
+    position: absolute;
     z-index: 2;
-    margin-top: 2%;
+    margin-top: 20%;
     display: inline-block;
     width: 40%;
     color: white;
     background-color: rgb(0, 0, 0, 0.5);
-    left: 9%;
-    margin-bottom: 3%;
+    right: 5%;
+    top: 20%;
 }
 
-
-@media screen and (max-width: 1277px) {
-    #div1a {
-        margin: auto;
-        margin-top: 125px;
-        font-size: 4em;
+#title {
+        margin-top: 5%;
     }
 
-    #self-img {
-        position: relative;
-        max-width: 24%;
-        margin: 0%;
-        right: 0;
-        margin-top: 40px;
-    }
 
-    .flex-column {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #about-me {
-        bottom: 2%;
-    }
-
-    #about {
-        bottom: 0%;
-    }
+@media screen and (max-width: 600px) {
 
     h1 {
         margin: auto;
@@ -183,67 +96,28 @@ h1 {
         font-size: 2.2em;
     }
 
-
-    #div1 {
-        margin-top: 8%;
-    }
-
-    #div2 {
-        margin-top: 8%;
-    }
-
-    #cs {
-        font-size: 1.8em;
-    }
-
-    #div3 {
-        margin-top: 20%;
-    }
-
-    #div4 {
-        margin-top: 20%;
-    }
-
+    #portfolio_titles {
+    font-size: 1em;
 }
 
-@media screen and (max-width: 600px) {
-    #div1a {
-        font-size: 2em;
-    }
-
-    #portfolio_titles {
-        font-size: 1.3em;
-    }
-
-    #about-me {
-        top: 8%;
-        left: 6%;
-        width: 75px;
-        height: 75px;
-    }
-
-    #about {
-        top: 9%;
-        left: 6%;
-        width: 75px;
-        height: 75px;
-        font-size: 1.3em;
-    }
 
     #div1 {
-        margin-top: 18%;
+        margin-top: 8%;
     }
 
     #div2 {
-        margin-top: 18%;
+        margin-top: 8%;
     }
 
     #div3 {
-        margin-top: 30%;
+        position: absolute;
+        top: 25%;
     }
 
     #div4 {
-        margin-top: 30%;
+        position: absolute;
+        right: 5%;
+        top: 25%;
     }
 
 }
